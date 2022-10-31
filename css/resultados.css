@@ -1,0 +1,120 @@
+@import url(../css/reset.css);
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.registro1 {
+    width: 100%;
+    height: 656px;
+}
+
+.registro1 #imagen {
+    width: 409px;
+    height: 635px;
+}
+
+img {
+    width: 360px;
+    height: 640px;
+}
+
+.registro1 #formulario {
+    width: 69.8%;
+    height: 645px;
+    margin: auto;
+    background: #3AD6E0;
+    border-radius: 5px;
+    border: 1px solid #5D6D7E;
+    margin-left: 410px;
+    margin-top: -645px;
+}
+
+
+.form__titulo{
+    width: 96%;
+    height: 80px;
+    background-color: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid crimson;
+    font-weight: 100;
+    font-size: 30px;
+  
+    
+}
+label{
+
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.field{
+    margin: 12px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input{
+    margin-bottom: 15px;
+    
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.cam{
+    width: 16%;
+    height: 21px;
+    text-align: center;
+}
+.tip{
+    width: 3%;
+    height: 21px;
+    text-align: center;
+}
+.apel{
+    width: 16%;
+    height: 21px;
+    text-align: center;
+}
+.tel{
+    width: 15%;
+    height: 21px;
+    text-align: center;
+}
+.dir{
+    width: 15%;
+    height: 21px;
+    text-align: center;
+
+}
+.pin{
+    width: 5%;
+}
+
+
+
+
+button {
+    width: 130px;
+    height: 23px;
+    margin-top: 33px;
+    margin-left: 310px;
+    background-color: blue;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}

@@ -1,0 +1,152 @@
+@import url(reset.css);
+@import url(fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background: #fff;
+}
+
+body {
+    width: 1180px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.registro1 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.registro1 #imagen {
+    width: 586px;
+    height: 588px;
+    float: left;
+}
+
+.registro1 #imagen img {
+    width: 586px;
+    height: 500px;
+    border: 1px solid #5D6D7E;
+}
+
+.formulario {
+    width: 441px;
+    height: 500px;
+    float: left;
+    border: 1px solid #5D6D7E;
+}
+
+.formulario #logotipo {
+    width: 441px;
+    height: 50px;
+    float: left;
+}
+
+.formulario #logotipo img {
+    height: 40px;
+    width: 160px;
+    float: left;
+    margin-left: 131px;
+    border: 1px solid #5D6D7E;
+}
+
+.entrada {
+    float: none;
+    margin-right: 70px;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    font-size: 14px;
+}
+
+.formulario1 {
+    width: 392px;
+    height: 370px;
+    margin-top: 55px;
+    margin-left: 24px;
+    border: 1px solid #5D6D7E;
+}
+
+.formulario1 form .contols {
+    width: 330px;
+    height: 20px;
+}
+
+.formulario1 input {
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-right: 35px;
+}
+
+.formulario1 .contols {
+    text-align: center;
+    border: 1px solid #5D6D7E;
+}
+
+.formulario1 .botons {
+    background: #B2DFFC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    width: 330px;
+    height: 30px;
+    border: 1px solid #5D6D7E;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#class {
+    float: left;
+    width: 120px;
+    margin-left: 237px;
+    margin-top: 6px;
+    background: #B2DFFC;
+    border-radius: 6px;
+}
+
+#class:focus {
+    color: black;
+    background: #fff;
+}
+
+input.boton {
+    width: 240px;
+    height: 30px;
+    text-align: center;
+    background-color: #0000FF;
+    float: left;
+    margin-left: 61px;
+    margin-top: 7px;
+}
+
+button {
+    width: 240px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #0000FF;
+    float: left;
+    margin-left: 60px;
+    margin-top: 7px;
+    border-radius: solid 2px #0000FF;
+}
+
+a:link,
+a:hover {
+    text-decoration: none;
+    background: #0000FF;
+}
+
+#texto p {
+    font-size: 13px;
+    text-align: center;
+    margin-left: 23px;
+    margin-top: 110px;
+    font-family: cursive;
+}

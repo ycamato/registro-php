@@ -1,0 +1,86 @@
+@import url(reset.css);
+@import url(fuentes.css);
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+    margin-top: 0px auto;
+}
+
+body {
+    width: 1280px;
+    height: 100%;
+    background: #1C74E9;
+}
+
+form {
+    width: 550px;
+    height: 560px;
+    background: #0B7F88;
+    border: 1px solid black;
+    margin-top: 24px;
+    margin-left: 55px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 21px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contols {
+    font-size: 17px;
+    text-align: center;
+    margin-left: 100px;
+    width: 300px;
+    height: 21px;
+}
+
+#fech_hora_v {
+    width: 300px;
+    height: 21px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 21px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    width: 300px;
+    height: 27px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.btn {
+    width: 210px;
+    height: 26px;
+    background: #20CBFF;
+    border: 1px solid black;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+a:link,
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    width: 210px;
+    height: 26px;
+    background: #20CBFF;
+    border: 1px solid black;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 150px;
+}

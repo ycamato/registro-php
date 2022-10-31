@@ -1,0 +1,108 @@
+@import url(reset.css);
+@import url(fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background: #fff;
+}
+
+body {
+    width: 1180px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.registro1 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.registro1 #imagen {
+    width: 586px;
+    height: 588px;
+    float: left;
+}
+
+.registro1 #imagen img {
+    width: 586px;
+    height: 500px;
+    border: 1px solid #5D6D7E;
+}
+
+.formulario {
+    width: 441px;
+    height: 500px;
+    float: left;
+    border: 1px solid #5D6D7E;
+}
+
+.formulario #logotipo {
+    width: 441px;
+    height: 50px;
+    float: left;
+}
+
+.formulario #logotipo img {
+    height: 40px;
+    width: 160px;
+    float: left;
+    margin-left: 131px;
+    border: 1px solid #5D6D7E;
+}
+
+.entrada {
+    float: none;
+    margin-right: 135px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.formulario1 {
+    width: 392px;
+    height: 370px;
+    margin-top: 55px;
+    margin-left: 24px;
+    border: 1px solid #5D6D7E;
+}
+
+.formulario1 form .contols {
+    width: 330px;
+    height: 30px;
+}
+
+.formulario1 input {
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-right: 35px;
+}
+
+.formulario1 .contols {
+    text-align: center;
+    border: 1px solid #5D6D7E;
+}
+
+.formulario1 .botons {
+    background: #B2DFFC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    width: 330px;
+    height: 30px;
+    border: 1px solid #5D6D7E;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#texto p {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 23px;
+    margin-top: 9px;
+}

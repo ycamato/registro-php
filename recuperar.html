@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>GASUNICO</title>
+</head>
+
+<body onload="form1.cedula.focus()">
+    <div class="registro1">
+        <div id="imagen">
+            <img src="imag/images.jpg" alt="fotocolumna">
+        </div>
+        <div class="formulario">
+            <div id="logotipo">
+                <img src="imag/logo2.jpg" alt="logotipo">
+            </div>
+            <div class="formulario1">
+                <form method="GET" name="form1" action="formulario.php" autocomplete="off">
+                    <label class="entrada">RECUPERAR CONTRASEÑA</label><br><br>
+                    <label>DOCUMENTO  DE  IDENTIDAD</label>
+                    <input class="contols" type="number" name="cedula" id="cedula" placeholder="Ingresa tu  documento" value="" /><br>
+                    <input class="contols" type="varchar" name="correo" id="correo" placeholder="Ingresa  tu  correo" value="" /><br>
+                    <input class="contols" type="number" name="pin" id="pin" placeholder="Ingresa  tu  pin" value="" /><br>
+                    <input class="botons" type="submit" name="validar" value="Validar"><br><br>
+                </form>
+                <article id="texto">
+                    <p> <a href="index.php">Volver a la  página principal </a><br><br>
+                        <p> <a href="registro.php">Registrate</a><br>
+                            <p>Nuestro compromiso es brindarte los mejores servicios.</p>
+
+                </article>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+@import url(../../css/reset.css);
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+    background: #fff;
+}
+
+body {
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    top: 0px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid crimson;
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    background-color: aqua;
+}
+
+.datos {
+    width: 120px;
+    height: 66%;
+    background: turquoise;
+}
+
+.datos #fotos {
+    width: 120px;
+    height:34px;
+    background: orange;
+}
+
+#formulario {
+    width:715.5px;
+    height: 615px;
+    background: gray;
+    margin-left: 650px;
+    margin-top: -330.5px;
+}
+
+
+
+label {
+    text-align: center;
+    background: blanchedalmond;
+    font-size: 15px;
+    width: 17%;
+    margin-left: 23px;
+    float: left;
+}
+
+#input {
+ float: left;
+  width: 38%;
+  height: 19px;
+  column-count : 2;
+  text-align: center;
+}
+
+#class{
+    float:left;
+    margin-top: 36px;
+}
+#foto{
+    float: left;
+    margin-left: -121px;
+}
+#enviar{
+    float: left;
+    margin-top: 57px;
+    margin-left: -240px;
+    background: blue;
+    color: #fff;
+}
